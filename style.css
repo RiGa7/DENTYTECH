@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    padding: 0 50px;
+    font-family: 'Raleway', sans-serif;
+}
+#nav{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#left{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+#left h3, #right #login{
+    border: solid black .5px;
+    font-size: 12px;
+}
+#menu{
+    border-radius: 10px;
+    padding: 3px 8px;
+}
+#menuIcon{
+    border-radius: 40px;
+    padding: 3px 5px;
+}
+#center{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.ri-service-line{
+    color: white;
+}
+#logo{
+    background-color: orangered;
+    padding: 3px;
+    align-items: center;
+    border-radius: 50%;
+}
+#right button{
+    background-color: white;
+    padding: 5px  10px;
+    border-radius: 10px;
+}
+
+#right #sign{
+    background-color: orangered;
+    border: solid 1px orangered;
+    color: white;
+}
+#hero h1{
+    font-size: 110px;
+    font-weight: 200;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+#hero img{
+    height: 300px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+#img1{ 
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+
+#img2{
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+#img4{
+    transform: translate(-50%,-50%);
+}
+
+#footer #right{
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+}
+#footer #left{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
+#circle{
+    border-radius: 50%;
+    border: solid black 1px;
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    height: 80px;
+    width: 80px;
+}
+.ri-arrow-down-line{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
